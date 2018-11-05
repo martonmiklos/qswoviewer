@@ -6,8 +6,6 @@
 
 #include "messages.h"
 
-#define byte quint8
-
 class ITMLocalTimestampEvent;
 
 class ITMEvent

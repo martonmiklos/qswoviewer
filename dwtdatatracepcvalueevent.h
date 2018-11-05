@@ -7,7 +7,7 @@
 class DWTDataTracePCValueEvent : public ITMEvent
 {
 public:
-    DWTDataTracePCValueEvent(byte comparatorId, long pcAddress);
+    DWTDataTracePCValueEvent(quint8 comparatorId, long pcAddress);
 };
 
 #endif // DWTDATATRACEPCVALUEEVENT_H

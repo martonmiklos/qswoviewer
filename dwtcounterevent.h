@@ -6,7 +6,9 @@
 class DWTCounterEvent : public ITMEvent
 {
 public:
-    DWTCounterEvent(byte counters);
+    DWTCounterEvent(quint8 counters);
+private:
+    quint8 m_counters;
 };
 
 #endif // DWTCOUNTEREVENT_H

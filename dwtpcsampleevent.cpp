@@ -1,6 +1,6 @@
 #include "dwtpcsampleevent.h"
 
-DWTPCSampleEvent::DWTPCSampleEvent(byte type_, long pcAddress) :
+DWTPCSampleEvent::DWTPCSampleEvent(quint8 type_, long pcAddress) :
     ITMEvent(),
     m_type(type_),
     m_pcAddress(pcAddress)

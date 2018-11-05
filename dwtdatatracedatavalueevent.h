@@ -6,7 +6,7 @@
 class DWTDataTraceDataValueEvent : public ITMEvent
 {
 public:
-    DWTDataTraceDataValueEvent(byte comparatorId, byte access, long dataValue);
+    DWTDataTraceDataValueEvent(quint8 comparatorId, quint8 access, long dataValue);
 };
 
 #endif // DWTDATATRACEDATAVALUEEVENT_H

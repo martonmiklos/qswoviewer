@@ -6,7 +6,7 @@
 class DWTDataTraceAddressOffsetEvent : public ITMEvent
 {
 public:
-    DWTDataTraceAddressOffsetEvent(byte comparatorId, int addressOffset);
+    DWTDataTraceAddressOffsetEvent(quint8 comparatorId, int addressOffset);
 };
 
 #endif // DWTDATATRACEADDRESSOFFSETEVENT_H

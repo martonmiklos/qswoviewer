@@ -1,7 +1,7 @@
 #include "dwtdatatracepcvalueevent.h"
 
 
-DWTDataTracePCValueEvent::DWTDataTracePCValueEvent(byte comparatorId, long pcAddress)
+DWTDataTracePCValueEvent::DWTDataTracePCValueEvent(quint8 comparatorId, long pcAddress)
 {
 
 }

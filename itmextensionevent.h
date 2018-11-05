@@ -6,7 +6,7 @@
 class ITMExtensionEvent : public ITMEvent
 {
 public:
-    ITMExtensionEvent(byte page);
+    ITMExtensionEvent(quint8 page);
 };
 
 #endif // ITMEXTENSIONEVENT_H

@@ -6,7 +6,7 @@
 class DWTExceptionEvent : public ITMEvent
 {
 public:
-    DWTExceptionEvent(int exceptionNumber, byte function);
+    DWTExceptionEvent(int exceptionNumber, quint8 function);
 };
 
 #endif // DWTEXCEPTIONEVENT_H

@@ -9,6 +9,10 @@ class SWVInterruptParser
 {
 public:
     SWVInterruptParser(SWVClient *client);
+    ~SWVInterruptParser();
+
+private:
+    SWVClient *m_client;
 };
 
 #endif // SWVINTERRUPTPARSER_H

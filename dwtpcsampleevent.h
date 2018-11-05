@@ -6,12 +6,12 @@
 class DWTPCSampleEvent : public ITMEvent
 {
 public:
-    DWTPCSampleEvent(byte type_, long pcAddress);
+    DWTPCSampleEvent(quint8 type_, long pcAddress);
 
     long pcAddress() const;
 
 private:
-    byte m_type;
+    quint8 m_type;
     long m_pcAddress;
 };
 

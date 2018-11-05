@@ -290,11 +290,9 @@ int SWVClient::createInstrumentationPacket(int packetheader)
 
     for (int i = 0; i < size; i++) {
         long c = readByte(false);
-        if (c == -2L) {
-            return -2;
-        }
-        if (c == -1L)
-            return -1;
+        if (c < 0)
+            return c;
+
         payload |= c << 8 * i;
     }
     ITMPortEvent *e = new ITMPortEvent(ITMPortPage, port, payload, size);
@@ -319,8 +317,7 @@ void SWVClient::run()
         if (m_socket->bytesAvailable()) {
             c = readByte(true);
 
-            if (-1 == c)
-            {
+            if (-1 == c) {
                 break;
             }
 

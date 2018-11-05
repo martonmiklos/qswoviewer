@@ -1,6 +1,6 @@
 #include "itmextensionevent.h"
 
-ITMExtensionEvent::ITMExtensionEvent(byte page)
+ITMExtensionEvent::ITMExtensionEvent(quint8 page)
 {
 
 }

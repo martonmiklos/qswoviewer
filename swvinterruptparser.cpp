@@ -4,3 +4,8 @@ SWVInterruptParser::SWVInterruptParser(SWVClient *client)
 {
 
 }
+
+SWVInterruptParser::~SWVInterruptParser()
+{
+
+}

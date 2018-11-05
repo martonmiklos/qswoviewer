@@ -15,7 +15,7 @@ I have pulled the relevant jar files to jd-gui and decompiled it see the content
 
 Then I have started to convert the JAVA code to a Qt based one.
 
-For long term I would like to create a QtCreator plugin for this. Together with the bare metal debug helpers longer term it might create a more solid dev environment than the Java based shit (Atollic).
+For long term I would like to create a QtCreator plugin from this. Together with the bare metal debug helpers longer term it might end up in a more usable environment than the current Java based shit (Atollic).
 
 ## When?
-The code is in unuable state ATM, but I got it compiled. 
+The code is in unusable state ATM, but I got it compiled. 
